@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-.body{
+.body {
   margin: 0 auto;
 }
 
@@ -469,7 +469,6 @@ ul li {
   text-align: center;
   justify-content: center;
 
-
   &-span1 {
     font-family: Montserrat;
     font-size: 36px;
@@ -480,7 +479,7 @@ ul li {
     color: #192252;
     margin-top: 80px;
   }
-  &-img1{
+  &-img1 {
     margin-top: 60px;
     width: 120px;
     height: 120px;
@@ -508,135 +507,124 @@ ul li {
     width: 72px;
     height: 12px;
     margin-top: 24px;
-    margin:0 auto;
+    margin: 0 auto;
   }
 }
 
-
 // footer
 
-.footer{
+.footer {
   width: 1230px;
   height: 440px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0B265A;
-    &-div{
-      width: 1000px;
-      height: 200px;
-     
-      display: flex;
-       
-      &-left{
-        width:49%;
-       
-        &-span1{
-          font-family: Montserrat;
-          font-size: 32px;
-          font-weight: 700;
-          line-height: 39.01px;
-          letter-spacing: -0.01em;
-          text-align: left;
-          color: #FFFFFF;
+  background-color: #0b265a;
+  &-div {
+    width: 1000px;
+    height: 200px;
 
-        }
-        li{
-         a{
+    display: flex;
+
+    &-left {
+      width: 49%;
+
+      &-span1 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39.01px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        color: #ffffff;
+      }
+      li {
+        a {
           font-family: Inter;
           font-size: 16px;
           font-weight: 400;
           line-height: 28px;
           text-align: left;
-          color: #D9DBDE;
+          color: #d9dbde;
           text-decoration: none;
-         }
-
-        }
-       
-      }
-      &-left1{
-       
-        &-span1{
-          font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 19.36px;
-letter-spacing: 0.01em;
-text-align: left;
-color: #FFFFFF;
-
-        }
-        
-        li{
-          a{
-            font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.36px;
-text-align: left;
-color:#D9DBDE;
-text-decoration: none;
-          }
         }
       }
-
-      &-right1{
-        margin-left: 100px;
-        &-span1{
-          font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 19.36px;
-letter-spacing: 0.01em;
-text-align: left;
-color: #FFFFFF;
-
-        }
-        li{
-          a{
-            font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 19.36px;
-text-align: left;
-text-decoration: none;
-color: #D9DBDE;
-          }
-        }
-      }
-
-     &-right{
-      margin-left: 80px;
-       &-span1{
+    }
+    &-left1 {
+      &-span1 {
         font-family: Inter;
-font-size: 16px;
-font-weight: 700;
-line-height: 19.36px;
-letter-spacing: 0.01em;
-text-align: left;
-color: #FFFFFF;
-       }
-       li{
-        a{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      li {
+        a {
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          text-align: left;
+          color: #d9dbde;
+          text-decoration: none;
+        }
+      }
+    }
+
+    &-right1 {
+      margin-left: 100px;
+      &-span1 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #ffffff;
+      }
+      li {
+        a {
           font-family: Inter;
           font-size: 16px;
           font-weight: 400;
           line-height: 19.36px;
           text-align: left;
           text-decoration: none;
-          color: #D9DBDE;
+          color: #d9dbde;
         }
-       }
-
-     }
-
-
+      }
     }
+
+    &-right {
+      margin-left: 80px;
+      &-span1 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        letter-spacing: 0.01em;
+        text-align: left;
+        color: #ffffff;
+      }
+      li {
+        a {
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19.36px;
+          text-align: left;
+          text-decoration: none;
+          color: #d9dbde;
+        }
+      }
+    }
+  }
 }
 
-
-.img-img{
+.img-img {
   margin-left: 24px;
-  margin-right:24px;
+  margin-right: 24px;
 }
