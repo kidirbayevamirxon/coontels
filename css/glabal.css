@@ -1,0 +1,583 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contoiner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.body {
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+.theme {
+  width: 1230px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.theme-top ul {
+  display: flex;
+  gap: 10px;
+}
+.theme-top ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.theme button {
+  width: 121px;
+  height: 47px;
+  top: 37px;
+  left: 1199px;
+  padding: 14px 16px 14px 16px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  color: #fff;
+  background-color: #0e1734;
+}
+.theme button:hover {
+  color: #0e1734;
+  background-color: #fff;
+}
+
+.nature {
+  width: 1230px;
+  display: flex;
+  justify-content: center;
+}
+.nature-left {
+  width: 40%;
+  height: 500px;
+  padding-top: 100px;
+}
+.nature-left-span {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  color: #192252;
+}
+.nature-left-span2 {
+  margin-top: 40px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  color: #848fac;
+  text-align: left;
+}
+.nature-left button {
+  width: 156px;
+  height: 51px;
+  top: 496px;
+  left: 121px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #0e1734;
+  color: #fff;
+}
+.nature-left button:hover {
+  background-color: #fff;
+  color: #0e1734;
+}
+.nature-right {
+  width: 40%;
+  height: 500px;
+  display: flex;
+  gap: 20px;
+}
+.nature-right img {
+  width: 30%;
+  height: 400px;
+}
+.nature-right img:nth-child(2) {
+  margin-top: 57px;
+}
+
+.hotel {
+  width: 1230px;
+  display: flex;
+  justify-content: center;
+}
+.hotel-left {
+  width: 30%;
+}
+.hotel-left img {
+  height: 400px;
+  margin-top: 80px;
+}
+.hotel-right {
+  width: 50%;
+  padding-top: 80px;
+  padding-left: 40px;
+}
+.hotel-right-span1 {
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 500;
+  text-align: left;
+}
+.hotel-right-span2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+.hotel-right-span3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+.hotel-right button {
+  width: 151px;
+  height: 51px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #0e1734;
+  color: #fff;
+}
+.hotel-right button:hover {
+  background-color: #fff;
+  color: #0e1734;
+}
+
+.cabin {
+  width: 1230px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.cabin-left {
+  width: 50%;
+  padding-top: 113px;
+}
+.cabin-left-span1 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #192252;
+}
+.cabin-left-span2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+.cabin-right {
+  width: 30%;
+}
+
+.food {
+  width: 1230px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.food-left {
+  width: 30%;
+}
+.food-left img {
+  width: 85%;
+  margin-left: 50px;
+}
+.food-right {
+  width: 50%;
+  margin-left: 110px;
+  padding-top: 120px;
+}
+.food-right-span1 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #192252;
+}
+.food-right-span2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+
+.room {
+  width: 1230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 80px;
+}
+.room-top {
+  text-align: center;
+}
+.room-top-span {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #192252;
+}
+.room-top-span1 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #848fac;
+}
+.room-top button {
+  width: 165px;
+  height: 51px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #0e1734;
+  color: #fff;
+}
+.room-top button:hover {
+  background-color: #fff;
+  color: #0e1734;
+}
+.room-btn {
+  width: 1000px;
+  height: 700px;
+  margin-left: 10px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  gap: 18px;
+}
+.room-btn-img1 {
+  width: 320px;
+  height: 450px;
+  margin-left: 5px;
+}
+.room-btn-img1 img {
+  width: 300px;
+  height: 450px;
+}
+.room-btn-img1 a {
+  color: #424f7b;
+  text-decoration: none;
+}
+.room-btn-img1-span {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  color: #000;
+}
+.room-btn-img1-span2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+
+.contact {
+  width: 1230px;
+  display: flex;
+  justify-content: center;
+}
+.contact-left {
+  width: 447px;
+  height: 298px;
+  margin-top: 160px;
+  margin-left: 120px;
+}
+.contact-left-span1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #424f7b;
+}
+.contact-left-span2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #192252;
+  margin-top: 50px;
+}
+.contact-left-span3 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+}
+.contact-left-btn {
+  display: flex;
+  gap: 20px;
+}
+.contact-left-btn-btn1 {
+  width: 148px;
+  height: 51px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: #0e1734;
+  color: #fff;
+}
+.contact-left-btn-btn1:hover {
+  background-color: #fff;
+  color: #0e1734;
+}
+.contact-left-btn-btn2 {
+  width: 175px;
+  height: 51px;
+  padding: 16px 30px 16px 30px;
+  border: transparent;
+  background-color: transparent;
+  color: #0e1734;
+}
+.contact-left-btn-btn2:hover {
+  background-color: #0e1734;
+  color: #fff;
+}
+.contact-right {
+  width: 588px;
+  height: 436px;
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-right: 70px;
+}
+.contact-right button {
+  width: 520px;
+  height: 100px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+.contact-right-btn1 li img {
+  width: 520px;
+  height: 100px;
+}
+.contact-right-btn1 li:nth-child(2) {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+  margin-left: 30px;
+  display: none;
+}
+.contact-right-btn1:active li {
+  display: block;
+}
+.contact-right-btn2 {
+  position: relative;
+}
+.contact-right-btn2 li img {
+  width: 520px;
+  height: 100px;
+}
+.contact-right-btn2 li:nth-child(2) {
+  top: 30px;
+  left: 30px;
+  position: absolute;
+  background-color: #fff;
+}
+.contact-right-btn2 li:nth-child(2) img {
+  width: 320px;
+  height: 30px;
+  background-color: #fff;
+}
+.contact-right-btn2 li:nth-child(3) {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #848fac;
+  margin-left: 30px;
+  display: none;
+}
+.contact-right-btn2:active li {
+  display: block;
+}
+
+.from {
+  width: 1230px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.from-span1 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #192252;
+  margin-top: 80px;
+}
+.from-img1 {
+  margin-top: 60px;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+}
+.from-span2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #848fac;
+  margin-top: 44px;
+}
+.from-span3 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #192252;
+  margin-top: 40px;
+}
+.from-img {
+  width: 72px;
+  height: 12px;
+  margin-top: 24px;
+  margin: 0 auto;
+}
+
+.footer {
+  width: 1230px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0B265A;
+}
+.footer-div {
+  width: 1000px;
+  height: 200px;
+  display: flex;
+}
+.footer-div-left {
+  width: 49%;
+}
+.footer-div-left-span1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer-div-left li a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #D9DBDE;
+  text-decoration: none;
+}
+.footer-div-left1-span1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer-div-left1 li a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #D9DBDE;
+  text-decoration: none;
+}
+.footer-div-right1 {
+  margin-left: 100px;
+}
+.footer-div-right1-span1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer-div-right1 li a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-decoration: none;
+  color: #D9DBDE;
+}
+.footer-div-right {
+  margin-left: 80px;
+}
+.footer-div-right-span1 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #FFFFFF;
+}
+.footer-div-right li a {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  text-decoration: none;
+  color: #D9DBDE;
+}
+
+.img-img {
+  margin-left: 24px;
+  margin-right: 24px;
+}/*# sourceMappingURL=glabal.css.map */
